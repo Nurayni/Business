@@ -1,0 +1,234 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .main-menu .menu ul li {
+    padding: 0 15px;
+  }
+  .bennar .inner-header .banner-img img {
+    right: 2%;
+  }
+  .bennar .inner-header .text {
+    max-width: 480px;
+  }
+  .features-area .single-features {
+    max-width: 450px;
+    left: 0;
+    right: 0;
+    margin: auto auto 30px auto;
+  }
+  .about-area .about-img {
+    position: relative;
+    left: -34px;
+  }
+  .about-area .about-text h2 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .menu-shrink {
+    display: none;
+  }
+  .mean-container .mean-bar {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+    position: absolute;
+    width: 100%;
+    z-index: 999999;
+    top: 58px;
+    right: 15px;
+  }
+  .mean-container a.meanmenu-reveal {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  .mean-container a.meanmenu-reveal span {
+    background: #fff none repeat scroll 0 0;
+  }
+  .mean-container .mean-nav ul li a {
+    padding: 20px 5%;
+  }
+  .main-menu .in-area {
+    position: absolute;
+    top: -18px;
+    right: -20%;
+  }
+  .bennar .inner-header .text {
+    max-width: 368px;
+  }
+  .bennar .inner-header .banner-img img {
+    width: 300px;
+    height: 350px;
+    right: 5%;
+    top: 19%;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .features-area .single-features {
+    max-width: 450px;
+    left: 0;
+    right: 0;
+    margin: auto auto 30px auto;
+  }
+  .about-area .about-img {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto auto 50px auto;
+    text-align: center;
+  }
+  .about-area .about-img img {
+    width: 80%;
+  }
+  .next-banner .banner-text h2 {
+    font-size: 32px;
+  }
+  .next-banner .banner-text p br {
+    display: none;
+  }
+  .blog-area .single-blog {
+    max-width: 450px;
+    left: 0;
+    right: 0;
+    margin: auto auto 30px auto;
+  }
+  .team-area .single-team .overly {
+    bottom: -26px;
+  }
+  .team-area .single-team .overly .text {
+    top: 30%;
+  }
+  .single-footer {
+    max-width: 500px;
+    left: 0;
+    right: 0;
+    margin: auto auto 30px auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-shrink {
+    display: none;
+  }
+  .mean-container .mean-bar {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+    position: absolute;
+    width: 100%;
+    z-index: 999999;
+    top: 58px;
+    right: 15px;
+  }
+  .mean-container a.meanmenu-reveal {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  .mean-container a.meanmenu-reveal span {
+    background: #fff none repeat scroll 0 0;
+  }
+  .mean-container .mean-nav ul li a {
+    padding: 20px 5%;
+  }
+  .main-menu .in-area {
+    position: relative;
+    text-align: center;
+    top: -18px;
+  }
+  .bennar .inner-header {
+    height: 70vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .bennar .inner-header .text {
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: 7%;
+    position: relative;
+    color: #ffffff;
+    z-index: 99;
+  }
+  .banner-img {
+    display: none;
+  }
+  .feedback-slider-thumb.hidden-xs {
+    display: none;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+  .section-padding-two {
+    padding: 60px 0 20px;
+  }
+  .about-area .about-img {
+    position: relative;
+    left: 0;
+    margin-bottom: 30px;
+  }
+  .about-area .about-img img {
+    width: 100%;
+  }
+  .next-banner .banner-text {
+    position: absolute;
+    top: 34%;
+    -webkit-transform: translateY(-30%);
+    transform: translateY(-30%);
+    text-align: center;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .next-banner .banner-text h2 {
+    font-size: 33px;
+  }
+  .portfolio-area .shorting-menu-area button {
+    font-size: 17px;
+    margin-left: 0;
+  }
+  .team-area .single-team {
+    max-width: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .team-area .single-team .overly .text {
+    top: 29%;
+  }
+  .team-area .single-team .overly {
+    bottom: -26px;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .footer-area .contact-address {
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  .footer-area .subscribe form {
+    margin-bottom: 30px;
+  }
+  .feedback-slider-item:after {
+    left: 30px;
+    right: 30px;
+  }
+  .customer-feedback .owl-nav [class*="owl-"] {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-top: 45px;
+    bottom: auto;
+  }
+  .customer-feedback .owl-prev {
+    left: 0;
+  }
+  .customer-feedback .owl-next {
+    right: 0;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
